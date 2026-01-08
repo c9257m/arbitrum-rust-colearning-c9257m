@@ -1,0 +1,10 @@
+[package]
+name = "level2-balance-query"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.49.0", features = ["full"] }
+eyre = "0.6"
+ethers = { version = "2.0.14", features = ["rustls"] }
+url = "2.5"
